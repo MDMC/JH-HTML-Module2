@@ -1,0 +1,80 @@
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box; 
+}
+body {
+ 
+  font-family: Helvetica;
+
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size = 175%
+}
+
+#C1 {  background-color: #E1CDB5;}
+#C2 {  background-color: #90708C; }
+#C3 {  background-color: #ACE4AA; }
+ 
+
+
+#section1 .content,
+#section2 .content,
+#section3 .content {
+  padding: 14 px;
+  position: relative;
+  border-top: 1 px solid black;
+  display: inline-block;
+  background-color: #49306B;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+
+}
+p {
+  margin-top: 2em;
+  color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+
+}
+
+
+.title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  font-size: 125%;
+}
+
+@media (min-width: 992px) {
+
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+</style>
